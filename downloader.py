@@ -1,8 +1,11 @@
 from yt_dlp import YoutubeDL
 
+
 def download_video(url):
     ydl_opts = {
-        "outtmpl": "video.%(ext)s"
+        "format": "mp4",
+        "outtmpl": "video.%(ext)s",
+        "noplaylist": True
     }
 
     with YoutubeDL(ydl_opts) as ydl:
