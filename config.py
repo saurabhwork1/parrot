@@ -1,1 +1,7 @@
+BOT_TOKEN = "YOUR_BOT_TOKEN"
 
+CLIP_DURATION = 60
+
+DOWNLOAD_FILE = "video.mp4"
+
+CLIPS_FOLDER = "clips"
